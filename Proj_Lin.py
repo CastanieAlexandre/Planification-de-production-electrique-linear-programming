@@ -1,7 +1,3 @@
-#import gurobipy as gp
-#heure64,demande64=gp.multidict({'1': 16000, '2': 14000, '3': 16000, '4': 30000, '5': 28000, 
-#'6': 25000, '7': 24000, '8': 33000, '9': 41000, '10': 32000, '11': 26000, '12': 22000})
-
 
 #fonctions retournant l'indice de la periode précédente en fonction de l'option
 def prev(periode, option):
