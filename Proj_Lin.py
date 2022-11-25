@@ -33,12 +33,6 @@ def prev2(heure, option):
 
 def prev3(heure, option):
     indiceheure=int(heure)-1
-    #l=[i for i in heure]
-    #if len(l)>=3:
-    #    indiceheure=int(l[0]+l[1])
-    #else :
-    #    indiceheure=int(l[0])
-    #indiceheure=int(indiceheure-(indiceheure/2))
     if option=='cyclique':
         if indiceheure==0:
             return 11
@@ -48,6 +42,4 @@ def prev3(heure, option):
         if indiceheure==0:
             return 0
         else:
-            return indiceheure-1 
-
-#print([prev3(h,'cyclique') for h in heure64])
+            return indiceheure-1
